@@ -1,0 +1,14 @@
+ApplicationMgr.TopAlg = {"MomentumGeneratorAlg", "MomentumProcessorAlg"};
+
+// Number of events to be processed (default is 10)
+ApplicationMgr.EvtMax = 10000;
+ApplicationMgr.EvtSel = "NONE";
+
+// Define Properties
+
+MomentumGeneratorAlg.mean_p = 101;
+MomentumGeneratorAlg.sigma_p = 2;
+
+ApplicationMgr.HistogramPersistency = "ROOT";
+NTupleSvc.Output = { "FILE1 DATAFILE='NTuple.root' OPT='NEW' TYP='ROOT'" };
+

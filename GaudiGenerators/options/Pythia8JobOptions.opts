@@ -1,0 +1,8 @@
+ApplicationMgr.TopAlg = {"Pythia8_i", "ReadTDSAlg"};
+Pythia8_i.pythiaSettingsPath = "/cvmfs/nica.jinr.ru/spd/gaudi/Gaudi-v36r9/GaudiGenerators/options/Pythia8.cmnd";
+
+// Number of events to be processed (default is 10)
+ApplicationMgr.EvtMax = 10;
+ApplicationMgr.EvtSel = "NONE";
+
+RndmGenSvc.Engine = "HepRndm::Engine<CLHEP::MTwistEngine>";
